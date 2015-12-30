@@ -1,5 +1,7 @@
-A class diagram example
+An example of implementing class diagram
 =============
+
+這裡以航空公司的系統作為範例, 系統中會紀錄航空公司裡面所有的資料(包括員工、乘客訂票資料)。 一間航空公司裡會有好幾架飛機, 而一架飛機上又會有好幾個空服員、 乘客及屬於該架飛機的log檔。此系統的簡易類別圖如下。
 
 在此範例中, 類別與類別之間的關係，可以分成**單純的結合關係**及**需要結合類別的結合關係**。
 
@@ -11,6 +13,6 @@ A class diagram example
 
 有個需要注意的地方是，需要被別人產生物件的類別，它們的建構式都必須是non-public的。
 
-
-UML class diagram
+</br>
+UML class diagram ：
 ![UML class diagram](UML class diagram.png)
